@@ -13,8 +13,14 @@
     "directories": {
       "output": "dist"
     },
+    "compression": "maximum",
     "files": [
-      "**/*"
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "assets/**/*",
+      "package.json"
     ],
     "win": {
       "icon": "assets/icon.ico",
