@@ -23,6 +23,13 @@
 \- No installation needed
 
 
+---
+
+\## Screenshots
+
+![VAT Calculator Screenshot 1](assets/screenshot1.png)
+![VAT Calculator Screenshot 2](assets/screenshot2.png)
+![VAT Calculator Screenshot 3](assets/screenshot3.png)
 
 ---
 
@@ -31,9 +38,7 @@
 \## 📦 Download
 
 
-
 Head to the releases page to download the latest version:
-
 
 
 \- ✅ `VAT Calculator.exe` — portable version, just run it
@@ -43,14 +48,10 @@ Head to the releases page to download the latest version:
 \- 🚫 No dependencies
 
 
-
 ---
 
 
-
 \## 💻 Development
-
-
 
 \### Requirements
 
