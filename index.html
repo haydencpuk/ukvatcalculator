@@ -76,10 +76,8 @@
           const totalWithDelivery = total + delivery;
 
           resultHTML = `
-            <p>Net: £${net.toFixed(2)}</p>
+            <strong><p>Net: £${net.toFixed(2)}</p></strong>
             <p>VAT (20%): £${vat.toFixed(2)}</p>
-            <strong>Total: £${total.toFixed(2)}</strong>
-            <strong>Total with Delivery: £${totalWithDelivery.toFixed(2)}</strong>
           `;
         } else if (mode === 'remove') {
           total = value;
