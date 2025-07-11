@@ -1,0 +1,18 @@
+# Node modules and build outputs
+node_modules/
+dist/
+out/
+build/
+*.log
+
+# Windows/macOS/OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional
+.env
+*.exe
+*.dll
+*.zip
+*.7z

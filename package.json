@@ -1,0 +1,35 @@
+{
+  "name": "vat-calculator",
+  "version": "1.0.0",
+  "description": "Simple UK VAT calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.vat.calculator",
+    "productName": "VAT Calculator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.2.2",
+    "electron-builder": "^24.6.0"
+  }
+}
